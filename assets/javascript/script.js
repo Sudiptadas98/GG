@@ -1,8 +1,8 @@
 score = 0;
 cross= true;
 
-audio = new Audio('music.mp3');
-audiogo = new Audio('md.mp3');
+audio = new Audio('assets/sounds/music.mp3');
+audiogo = new Audio('assets/sounds/md.mp3');
 // animation = document.querySelector('.obstacleAni');
 play = document.querySelector('.play');
 play.addEventListener("click", () => {
